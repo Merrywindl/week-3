@@ -38,7 +38,7 @@
       </div>
     </div>
   </nav>
-    
+    <!--adds validation requiremnt that text is required-->
   <form class="was-validated">
     <div class="mb-3">
       <label for="validationTextarea" class="form-label">Please Enter Your Name</label>
@@ -65,12 +65,14 @@
       </div>
   
     <div class="form-check mb-3">
+        <!--added checkbox-->
       <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
       <label class="form-check-label" for="validationFormCheck1">I certify this is my pet</label>
-      <div class="invalid-feedback">Example invalid feedback text</div>
+      <div class="invalid-feedback">No file selected</div>
     </div>
   
     <div class="form-check">
+        <!--added radio button for either or selection-->
       <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
       <label class="form-check-label" for="validationFormCheck2">Cat</label>
     </div>
@@ -82,6 +84,7 @@
   
   
     <div class="mb-3">
+        <!--added submission of file option with filter for only img files-->
       <input type="file" accept=".jpg,.gif,.png" class="form-control" aria-label="file example" required>
       <div class="invalid-feedback">Example invalid form file feedback</div>
     </div>
